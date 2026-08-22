@@ -21,7 +21,7 @@ jobs:
           github_user_name: getsurajmittal
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-light.svg?palette=github-light
 
       - name: Push output to output branch
         uses: crazy-max/ghaction-github-pages@v4
