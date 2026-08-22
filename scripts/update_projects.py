@@ -26,11 +26,6 @@ TABLE_COUNT = int(os.environ.get("TABLE_COUNT", "6"))  # rows in the details tab
 
 EXCLUDE = {n.strip() for n in os.environ.get("EXCLUDE_REPOS", USER).split(",") if n.strip()}
 
-THEME = (
-    "hide_border=true&theme=tokyonight&bg_color=0D1117"
-    "&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9"
-)
-
 START, END = "<!-- PROJECTS:START -->", "<!-- PROJECTS:END -->"
 
 
@@ -126,25 +121,25 @@ def build_block(repos):
     ranked = sorted(repos, key=score, reverse=True)
     cards, rows = ranked[:CARD_COUNT], ranked[:TABLE_COUNT]
 
-    out = ['<div align="center">', ""]
-    for i in range(0, len(cards), 2):
-        out.append(" ".join(
-            f'<a href="{r["html_url"]}"><img width="49%" '
-            f'src="https://github-readme-stats.vercel.app/api/pin/?username={USER}'
-            f'&repo={r["name"]}&{THEME}" alt="{r["name"]}" /></a>'
-            for r in cards[i:i + 2]
-        ))
-        out.append("")
-    out += ["</div>", ""]
-
-    out += ["| Project | What it does | Stack | ⭐ |", "| :--- | :--- | :--- | :---: |"]
+    # No pinned-card images: those came from github-readme-stats.vercel.app,
+    # which is rate-limited and rendered as broken images. Plain markdown
+    # instead — nothing external to fail.
+    out = ["| Project | What it does | Stack | ⭐ | Live |",
+           "| :--- | :--- | :--- | :---: | :---: |"]
     for r in rows:
         desc = cell(r.get("description")) or "_No description yet._"
         stack = " ".join(f"`{l}`" for l in languages(r["name"], r.get("language")))
+        home = (r.get("homepage") or "").strip()
+        live = f"[↗]({home})" if home.startswith("http") else "—"
         out.append(
             f'| **[{cell(r["name"])}]({r["html_url"]})** | {desc} | {stack} '
-            f'| {r.get("stargazers_count", 0)} |'
+            f'| {r.get("stargazers_count", 0)} | {live} |'
         )
+
+    highlight = cards[0] if cards else None
+    if highlight:
+        out += ["", f'<sub>Most active right now: '
+                    f'<a href="{highlight["html_url"]}">{cell(highlight["name"])}</a></sub>']
 
     return "\n".join(out)
 
