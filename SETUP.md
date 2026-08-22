@@ -230,10 +230,29 @@ not a misconfiguration — the project's own README now says the public instance
 instead. `generate_cards.py` does exactly that: the cards are built in CI and committed to
 `assets/`, so they're served from your own repo with nothing third-party in the path.
 
-**What's still third-party.** The streak card (`streak-stats.demolab.com`), trophies, the
-header banner, the typing SVG and the snake. All currently render fine. If any of them
-breaks later, it'll break the same way — a broken-image icon — and the fix is the same
-pattern: generate it in `generate_cards.py` and reference `./assets/`.
+**Every Vercel dependency is gone.** `github-readme-stats`, `github-profile-trophy` and
+`capsule-render` all broke or were going to. `generate_cards.py` now produces seven files
+in `assets/`: `header`, `footer`, `stats`, `languages`, `streak`, `activity`, `trophies`.
+
+**What's still third-party**, and why it's lower risk:
+
+| Host | Used for | Risk |
+| :--- | :--- | :--- |
+| `img.shields.io` | tech-stack badges | Low — large funded service |
+| `raw.githubusercontent.com` | section dividers, snake | None — it's GitHub |
+| `media.giphy.com` | section-header GIFs | Low, and purely decorative |
+| `readme-typing-svg.demolab.com` | animated tagline | Medium — same family as the streak card was |
+| `komarev.com` | profile-view counter | Medium — but it *needs* to be a service; a counter can't be static |
+
+If the typing SVG ever breaks, it can be generated locally too — an animated SVG with SMIL
+works fine in a README (the snake is one). The view counter can't be; drop the badge if it
+goes.
+
+**Cache-busting matters.** GitHub proxies README images through camo, which caches by URL.
+Regenerating `assets/stats.svg` at the same path leaves the *stale* image on screen — this
+bit us once already. `stamp_readme()` appends a content hash (`stats.svg?v=5b1a88af`) and
+updates it whenever the bytes change, so camo is forced to refetch. Never strip those query
+strings by hand.
 
 **Placeholder cards.** `assets/*.svg` ship as neutral "populates on the first workflow run"
 cards rather than fake numbers. Run the workflow once and they fill in with real data.

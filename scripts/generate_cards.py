@@ -162,15 +162,15 @@ def gather():
         d["issues"] = u["issues"]["totalCount"]
         d["contributed"] = u["repositoriesContributedTo"]["totalCount"]
         d["total_contributions"] = cc["contributionCalendar"]["totalContributions"]
-        d["calendar"] = [
-            day["contributionCount"]
-            for w in cc["contributionCalendar"]["weeks"]
-            for day in w["contributionDays"]
-        ]
+        days = [(day["date"], day["contributionCount"])
+                for w in cc["contributionCalendar"]["weeks"]
+                for day in w["contributionDays"]]
+        d["calendar"] = [c for _, c in days]
+        d["calendar_days"] = days
     else:
         log("  (no token — commit/PR/issue counts unavailable, card adapts)")
-        d.update(commits=None, prs=None, issues=None,
-                 contributed=None, total_contributions=None, calendar=[])
+        d.update(commits=None, prs=None, issues=None, contributed=None,
+                 total_contributions=None, calendar=[], calendar_days=[])
 
     log(f"Gathered: {len(owned)} repos, {d['stars']} stars, "
         f"{len(langs)} languages, {len(d['calendar'])} contribution days")
@@ -337,6 +337,301 @@ def write(name, svg):
     log(f"  + {path} written ({len(svg):,} bytes)")
 
 
+TIERS = {
+    "Commits":       [(5000, "SS"), (1000, "S"), (500, "A"), (100, "B"), (10, "C")],
+    "Contributions": [(5000, "SS"), (1000, "S"), (500, "A"), (100, "B"), (10, "C")],
+    "Active Days":   [(300, "SS"), (200, "S"), (100, "A"), (30, "B"), (5, "C")],
+    "Best Streak":   [(365, "SS"), (100, "S"), (30, "A"), (7, "B"), (2, "C")],
+    "Repos":         [(100, "SS"), (50, "S"), (20, "A"), (5, "B"), (1, "C")],
+    "Languages":     [(15, "SS"), (10, "S"), (6, "A"), (3, "B"), (1, "C")],
+    "Stars":         [(500, "SS"), (200, "S"), (50, "A"), (10, "B"), (1, "C")],
+    "Followers":     [(500, "SS"), (100, "S"), (50, "A"), (10, "B"), (1, "C")],
+    "Pull Reqs":     [(200, "SS"), (100, "S"), (50, "A"), (10, "B"), (1, "C")],
+    "Issues":        [(100, "SS"), (50, "S"), (25, "A"), (10, "B"), (1, "C")],
+}
+TIER_COLOR = {"SS": "#FFD700", "S": "#00F5D4", "A": "#8B5CF6",
+              "B": "#3B82F6", "C": "#10B981", "–": "#374151"}
+
+
+def tier_of(metric, value):
+    """Returns (tier letter, next threshold or None)."""
+    ladder = TIERS[metric]
+    for i, (need, letter) in enumerate(ladder):
+        if value >= need:
+            nxt = ladder[i - 1][0] if i > 0 else None
+            return letter, nxt
+    return "–", ladder[-1][0]
+
+
+def trophies_card(d):
+    """Replaces github-profile-trophy.vercel.app, which is rate-limited like the
+    rest of that family. Shows where each metric actually stands plus progress
+    to the next tier, rather than a wall of identical badges."""
+    cal = d.get("calendar") or []
+    active_days = sum(1 for n in cal if n > 0)
+    best, run = 0, 0
+    for n in cal:
+        run = run + 1 if n > 0 else 0
+        best = max(best, run)
+
+    # Candidates in priority order. Only the non-zero ones are shown, so the card
+    # reflects what you actually do rather than parading metrics you're at 0 on.
+    candidates = [
+        ("Commits", d["commits"] or 0),
+        ("Contributions", d.get("total_contributions") or 0),
+        ("Active Days", active_days),
+        ("Best Streak", best),
+        ("Repos", d["public_repos"]),
+        ("Languages", len(d["languages"])),
+        ("Stars", d["stars"]),
+        ("Followers", d["followers"]),
+        ("Pull Reqs", d["prs"] or 0),
+        ("Issues", d["issues"] or 0),
+    ]
+    metrics = [c for c in candidates if c[1] > 0][:6]
+    if len(metrics) < 6:  # pad so the grid stays full on a brand-new account
+        metrics += [c for c in candidates if c[1] == 0][:6 - len(metrics)]
+
+    w = 940
+    cols, pad, gap = 3, 24, 16
+    tile_w = (w - 2 * pad - (cols - 1) * gap) / cols
+    tile_h = 96
+    y0 = 58
+    rows = (len(metrics) + cols - 1) // cols
+
+    body = []
+    for i, (name, val) in enumerate(metrics):
+        cx = pad + (i % cols) * (tile_w + gap)
+        cy = y0 + (i // cols) * (tile_h + gap)
+        letter, nxt = tier_of(name, val)
+        col = TIER_COLOR[letter]
+
+        # progress toward the next tier
+        if nxt:
+            prev = next((n for n, l in TIERS[name] if l == letter), 0) if letter != "–" else 0
+            span = max(nxt - prev, 1)
+            frac = min(max((val - prev) / span, 0.0), 1.0)
+            sub = f"{val:,} / {nxt:,} to {[l for n, l in TIERS[name] if n == nxt][0]}"
+        else:
+            frac, sub = 1.0, "max tier"
+
+        bar_w = tile_w - 32
+        body.append(
+            f'<rect x="{cx:.1f}" y="{cy}" width="{tile_w:.1f}" height="{tile_h}" rx="8" '
+            f'fill="#111823" stroke="{BORDER}"/>'
+            f'<text x="{cx+16:.1f}" y="{cy+26}" font-family="{FONT}" font-size="12" '
+            f'fill="{MUTED}">{esc(name)}</text>'
+            f'<text x="{cx+16:.1f}" y="{cy+54}" font-family="{FONT}" font-size="24" '
+            f'font-weight="700" fill="{TEXT}">{val:,}</text>'
+            f'<rect x="{cx+tile_w-46:.1f}" y="{cy+14}" width="32" height="20" rx="6" '
+            f'fill="{col}" opacity="0.18"/>'
+            f'<text x="{cx+tile_w-30:.1f}" y="{cy+28}" font-family="{FONT}" font-size="12" '
+            f'font-weight="700" text-anchor="middle" fill="{col}">{letter}</text>'
+            f'<rect x="{cx+16:.1f}" y="{cy+68}" width="{bar_w:.1f}" height="5" rx="2.5" '
+            f'fill="#1B2430"/>'
+            f'<rect x="{cx+16:.1f}" y="{cy+68}" width="{max(bar_w*frac,2):.1f}" height="5" '
+            f'rx="2.5" fill="{col}"/>'
+            f'<text x="{cx+16:.1f}" y="{cy+88}" font-family="{FONT}" font-size="10" '
+            f'fill="{MUTED}">{esc(sub)}</text>'
+        )
+
+    h = y0 + rows * (tile_h + gap) + 8
+    return frame(w, h, "Milestones", "".join(body))
+
+
+# --------------------------------------------------------------------- banners
+
+SANS = ("system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',"
+        "Arial,sans-serif")
+
+HEADER_NAME = os.environ.get("HEADER_NAME", "Suraj Mittal")
+HEADER_TAGLINE = os.environ.get("HEADER_TAGLINE", "Agentic DevOps Software Engineer")
+
+
+def wave_edge(w, y, amp, periods):
+    """A smooth alternating wave across the full width, as a path fragment."""
+    seg = w / (periods * 2)
+    d, x, up = f"M0,{y:.1f}", 0.0, True
+    for _ in range(periods * 2):
+        d += (f" Q{x + seg/2:.1f},{y + (-amp if up else amp):.1f} "
+              f"{x + seg:.1f},{y:.1f}")
+        x += seg
+        up = not up
+    return d
+
+
+def banner(w, h, stops, text=None, sub=None, wave_at="bottom", gid="g"):
+    """Replaces capsule-render.vercel.app — same waving-gradient look, but the
+    file lives in this repo so it can't 503 or rate-limit."""
+    grad = "".join(
+        f'<stop offset="{off}%" stop-color="{col}"/>' for off, col in stops
+    )
+
+    if wave_at == "bottom":
+        base = h - 34
+        path = wave_edge(w, base, 16, 2) + f" L{w},0 L0,0 Z"
+    else:
+        base = 34
+        path = wave_edge(w, base, 16, 2) + f" L{w},{h} L0,{h} Z"
+
+    body = [
+        f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="1" y2="0">{grad}'
+        f'</linearGradient></defs>',
+        f'<path d="{path}" fill="url(#{gid})"/>',
+    ]
+
+    if text:
+        cy = (base / 2) + 10
+        body.append(
+            f'<text x="{w/2:.0f}" y="{cy:.0f}" font-family="{SANS}" font-size="62" '
+            f'font-weight="800" text-anchor="middle" fill="#FFFFFF" '
+            f'letter-spacing="1">{esc(text)}</text>'
+        )
+        if sub:
+            body.append(
+                f'<text x="{w/2:.0f}" y="{cy + 40:.0f}" font-family="{SANS}" '
+                f'font-size="19" font-weight="500" text-anchor="middle" '
+                f'fill="#FFFFFF" opacity="0.82">{esc(sub)}</text>'
+            )
+
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
+            f'viewBox="0 0 {w} {h}" role="img" '
+            f'aria-label="{esc(text or "banner")}">' + "".join(body) + "</svg>")
+
+
+def header_banner():
+    return banner(1200, 230,
+                  [(0, "#0F2027"), (50, "#203A43"), (100, "#00F5D4")],
+                  text=HEADER_NAME, sub=HEADER_TAGLINE,
+                  wave_at="bottom", gid="hdr")
+
+
+def footer_banner():
+    return banner(1200, 150,
+                  [(0, "#00F5D4"), (50, "#203A43"), (100, "#0F2027")],
+                  wave_at="top", gid="ftr")
+
+
+def streak_card(d):
+    """Replaces streak-stats.demolab.com. Same three-panel layout, computed from
+    the contribution calendar we already fetch."""
+    days = d.get("calendar_days") or []
+    if not days:
+        return None
+
+    counts = [c for _, c in days]
+    total = sum(counts)
+
+    best = run = 0
+    for c in counts:
+        run = run + 1 if c > 0 else 0
+        best = max(best, run)
+
+    # Current streak: walk backwards. Today not yet committed doesn't break it.
+    cur, started, ended = 0, None, None
+    for date, c in reversed(days):
+        if c > 0:
+            cur += 1
+            started = date
+            ended = ended or date
+        elif cur == 0:
+            continue          # today still has time
+        else:
+            break
+
+    months = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+    def pretty(iso, with_year=True):
+        if not iso:
+            return ""
+        y, m, dd = iso.split("-")
+        stamp = f"{months[int(m)-1]} {int(dd)}"
+        return f"{stamp}, {y}" if with_year else stamp
+
+    streak_span = (
+        f"{pretty(started, False)} - {pretty(ended, False)}" if cur else "no active streak"
+    )
+
+    w, h = 460, 200
+    col = w / 3
+    body = [
+        f'<line x1="{col:.0f}" y1="30" x2="{col:.0f}" y2="{h-30}" stroke="{BORDER}"/>',
+        f'<line x1="{col*2:.0f}" y1="30" x2="{col*2:.0f}" y2="{h-30}" stroke="{BORDER}"/>',
+    ]
+
+    def panel(cx, value, label, sub, big_col):
+        return (
+            f'<text x="{cx:.0f}" y="88" font-family="{FONT}" font-size="30" '
+            f'font-weight="700" text-anchor="middle" fill="{big_col}">{value}</text>'
+            f'<text x="{cx:.0f}" y="116" font-family="{FONT}" font-size="12" '
+            f'text-anchor="middle" fill="{TEXT}">{esc(label)}</text>'
+            f'<text x="{cx:.0f}" y="138" font-family="{FONT}" font-size="10" '
+            f'text-anchor="middle" fill="{MUTED}">{esc(sub)}</text>'
+        )
+
+    span = f"{pretty(days[0][0])} - Present"
+    body.append(panel(col * 0.5, f"{total:,}", "Total Contributions", span, ACCENT))
+
+    # centre panel: current streak inside a ring
+    ccx, ccy = col * 1.5, 78
+    body.append(
+        f'<circle cx="{ccx:.0f}" cy="{ccy}" r="34" fill="none" '
+        f'stroke="{TITLE}" stroke-width="3"/>'
+        f'<text x="{ccx:.0f}" y="{ccy+10}" font-family="{FONT}" font-size="28" '
+        f'font-weight="700" text-anchor="middle" fill="{ACCENT}">{cur}</text>'
+        f'<text x="{ccx:.0f}" y="140" font-family="{FONT}" font-size="12" '
+        f'font-weight="700" text-anchor="middle" fill="{TITLE}">Current Streak</text>'
+        f'<text x="{ccx:.0f}" y="160" font-family="{FONT}" font-size="10" '
+        f'text-anchor="middle" fill="{MUTED}">{esc(streak_span)}</text>'
+    )
+
+    body.append(panel(col * 2.5, f"{best}", "Longest Streak", "days in a row", ACCENT))
+
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
+            f'viewBox="0 0 {w} {h}" role="img" aria-label="Contribution streak">'
+            f'<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="10" '
+            f'fill="{BG}" stroke="{BORDER}"/>' + "".join(body) + "</svg>")
+
+
+def stamp_readme(names):
+    """Append a content hash to each ./assets/<name>.svg reference in README.md.
+
+    GitHub proxies README images through camo, which caches by URL. Regenerating
+    an SVG at the same path leaves the stale image on screen — which is exactly
+    what happened after the first run. Changing the query string changes the URL,
+    so camo is forced to refetch.
+    """
+    import hashlib
+    import re as _re
+
+    path = os.environ.get("README_PATH", "README.md")
+    if not os.path.exists(path):
+        log(f"  ! {path} not found — skipping cache-bust stamp")
+        return
+
+    with open(path, encoding="utf-8") as f:
+        content = original = f.read()
+
+    for name in names:
+        svg_path = os.path.join(OUT, f"{name}.svg")
+        if not os.path.exists(svg_path):
+            continue
+        with open(svg_path, "rb") as f:
+            digest = hashlib.md5(f.read()).hexdigest()[:8]
+        content = _re.sub(
+            rf'(\./{_re.escape(OUT)}/{_re.escape(name)}\.svg)(\?v=[0-9a-f]+)?',
+            rf'\g<1>?v={digest}',
+            content,
+        )
+
+    if content != original:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        log("  + README image URLs re-stamped (cache-bust)")
+    else:
+        log("  = README image URLs already current")
+
+
 def placeholder(title, w=460, h=140):
     """Neutral card used to seed assets/ before the first Actions run.
 
@@ -354,17 +649,30 @@ def placeholder(title, w=460, h=140):
 
 
 def main():
+    names = ["header", "footer", "stats", "languages",
+             "streak", "activity", "trophies"]
+
+    # Banners hold no live data, so they're written the same way either mode.
+    write("header.svg", header_banner())
+    write("footer.svg", footer_banner())
+
     if "--placeholder" in sys.argv:
         write("stats.svg", placeholder("GitHub Stats"))
         write("languages.svg", placeholder("Most Used Languages"))
+        write("streak.svg", placeholder("Contribution Streak"))
         write("activity.svg", placeholder("Contribution Activity", w=940))
+        write("trophies.svg", placeholder("Milestones", w=940))
+        stamp_readme(names)
         log("Placeholder cards written — run without --placeholder to fill them in.")
         return
 
     d = gather()
     write("stats.svg", stats_card(d))
     write("languages.svg", languages_card(d))
+    write("streak.svg", streak_card(d) or placeholder("Contribution Streak"))
     write("activity.svg", activity_card(d))
+    write("trophies.svg", trophies_card(d))
+    stamp_readme(names)
     log("Cards done.")
 
 
