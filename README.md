@@ -144,19 +144,17 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!-- PROJECTS:START -->
 <div align="center">
 
-<a href="https://github.com/getsurajmittal/my-portfolio"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=my-portfolio&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="my-portfolio" /></a>
-<a href="https://github.com/getsurajmittal/habit_tracker"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=habit_tracker&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="habit_tracker" /></a>
+<a href="https://github.com/getsurajmittal/reimbursements"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=reimbursements&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="reimbursements" /></a> <a href="https://github.com/getsurajmittal/habit_tracker"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=habit_tracker&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="habit_tracker" /></a>
 
-<a href="https://github.com/getsurajmittal/reimbursements"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=reimbursements&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="reimbursements" /></a>
-<a href="https://github.com/getsurajmittal/getsurajmittal"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=getsurajmittal&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="getsurajmittal" /></a>
+<a href="https://github.com/getsurajmittal/my-portfolio"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=my-portfolio&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="my-portfolio" /></a>
 
 </div>
 
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | Daily habit tracker with a monthly grid, streaks, heatmaps, day notes and instant cross-device sync | `JavaScript` `Firebase` `GitHub Pages` |
-| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | PWA ledger for expenses & pocket money with receipt uploads and row-level access control | `JavaScript` `Supabase` `Tailwind` |
-| **[my-portfolio](https://github.com/getsurajmittal/my-portfolio)** | Personal portfolio site built on a modern React + Vite toolchain | `React` `Vite` `Tailwind` |
+| Project | What it does | Stack | ⭐ |
+| :--- | :--- | :--- | :---: |
+| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `HTML` | 0 |
+| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 |
+| **[my-portfolio](https://github.com/getsurajmittal/my-portfolio)** | _No description yet._ | `JavaScript` `HTML` `CSS` | 0 |
 <!-- PROJECTS:END -->
 
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
@@ -167,6 +165,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 > ⚡ Auto-refreshed by GitHub Actions — pushes, PRs, stars and new repos land here on their own.
 
 <!--START_SECTION:activity-->
+
+1. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 0m ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11m ago
+3. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 44m ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 45m ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 46m ago
+6. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 49m ago
+7. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 50m ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 55m ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 56m ago
+10. ✨ Created a new branch in [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 1h ago
+
 <!--END_SECTION:activity-->
 
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
