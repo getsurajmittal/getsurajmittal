@@ -1,0 +1,56 @@
+name: 🔄 Auto-update README
+
+on:
+  schedule:
+    # Every 6 hours — picks up new repos, descriptions, stars and languages
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:        # Run manually from the Actions tab
+  repository_dispatch:      # Or trigger instantly from any other repo (see README-SETUP.md)
+    types: [refresh-readme]
+
+permissions:
+  contents: write
+
+jobs:
+  projects:
+    name: Rebuild projects section
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate featured projects from the GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: getsurajmittal
+          EXCLUDE_REPOS: getsurajmittal
+        run: python scripts/update_projects.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update featured projects 🤖"
+          git push
+
+  activity:
+    name: Refresh activity feed
+    runs-on: ubuntu-latest
+    needs: projects
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "chore: auto-update activity feed 🤖"
+          MAX_LINES: 10

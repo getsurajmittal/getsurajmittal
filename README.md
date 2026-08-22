@@ -1,103 +1,189 @@
+<!-- ==================== HEADER ==================== -->
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2&height=200&section=header&text=Suraj%20Mittal&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Java%20%26%20DevOps&descAlignY=58&descSize=18" width="100%" alt="Header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:00F5D4&height=220&section=header&text=Suraj%20Mittal&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Agentic%20DevOps%20Software%20Engineer&descAlignY=58&descSize=20" alt="header" />
 
-<br/>
-
-<!-- TYPING SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1200&color=4C8EDA&center=true&vCenter=true&width=500&lines=Building+with+Java+%E2%98%95;Living+in+the+DevOps+stack+%E2%9A%99%EF%B8%8F;Writing+shayari+on+the+side+%E2%9C%8D%EF%B8%8F" alt="Typing SVG" />
-
-</div>
-
-<br/>
-
-## 👋 About Me
-
-- 💻 I build with **Java** and work across the **DevOps** stack
-- ✍️ In my free time, I'm a **shayar** — I write shayari
-- 🔗 Let's connect on [LinkedIn](https://www.linkedin.com/in/suraj-mittal-58a86a20b/)
-
-<br/>
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-4C8EDA?style=for-the-badge&logo=openjdk&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-4C8EDA?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-4C8EDA?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-4C8EDA?style=for-the-badge&logo=jenkins&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-4C8EDA?style=for-the-badge&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-4C8EDA?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<!-- GitHub Stats -->
 <a href="https://github.com/getsurajmittal">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=getsurajmittal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4C8EDA&icon_color=4C8EDA&text_color=c9d1d9" alt="Suraj's GitHub stats" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=getsurajmittal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4C8EDA&text_color=c9d1d9" alt="Top Languages" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=00F5D4&center=true&vCenter=true&width=750&lines=Building+with+Java+%E2%98%95;Living+in+the+DevOps+stack+%F0%9F%9A%80;Automating+pipelines+with+AI+agents+%F0%9F%A4%96;Kubernetes+%7C+Docker+%7C+Jenkins+%7C+AWS+%7C+Linux;Writing+shayari+on+the+side+%E2%9C%8D%EF%B8%8F" alt="Typing SVG" />
 </a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=getsurajmittal&label=Profile%20Views&color=00f5d4&style=for-the-badge" alt="profile views" />
+<a href="https://github.com/getsurajmittal?tab=followers"><img src="https://img.shields.io/github/followers/getsurajmittal?label=Followers&style=for-the-badge&color=00f5d4&labelColor=0d1117&logo=github" alt="followers" /></a>
+<a href="https://github.com/getsurajmittal?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fgetsurajmittal&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=8b5cf6&labelColor=0d1117&logo=git" alt="repos" /></a>
+<a href="https://www.linkedin.com/in/suraj-mittal-58a86a20b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=0d1117&logo=linkedin" alt="linkedin" /></a>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
+
+<!-- ==================== ABOUT ==================== -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;whoami
+
+```yaml
+name:        Suraj Mittal
+role:        Agentic DevOps Software Engineer
+company:     Adtran
+languages:   [Java, Python, C/C++, Bash]
+daily_stack: [Docker, Kubernetes, Jenkins, AWS, Linux, Git]
+focus:       "Wiring AI agents into CI/CD so pipelines fix themselves"
+philosophy:  "If I do it twice, it gets automated the third time"
+off_duty:    "Writing shayari ✍️"
+open_to:     [Collaboration, DevOps automation, Platform engineering]
+```
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔭 Currently Building
+- **Agentic CI/CD** — LLM-driven agents that triage failed builds, open fixes, and self-heal deployments
+- **Platform tooling** on Kubernetes for faster, safer releases
+- Side projects that scratch real itches — habit tracking, expense ledgers, portfolio
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 Currently Learning
+- Advanced **Kubernetes operators** & custom controllers
+- **GitOps** at scale (ArgoCD, Flux)
+- **AI agent orchestration** for infrastructure workflows
+- Cloud-native observability (OpenTelemetry, Prometheus)
+
+</td>
+</tr>
+</table>
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
+
+<!-- ==================== TECH STACK ==================== -->
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> &nbsp;Tech Arsenal
+
+<div align="center">
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+**DevOps &amp; Cloud**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+
+**Frameworks, Data &amp; Tools**
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
+
+<!-- ==================== STATS ==================== -->
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> &nbsp;GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=getsurajmittal&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9&ring_color=00F5D4" alt="GitHub Stats" />
+<img width="49%" src="https://streak-stats.demolab.com?user=getsurajmittal&hide_border=true&theme=tokyonight&background=0D1117&ring=00F5D4&fire=8B5CF6&currStreakLabel=00F5D4&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
 
 <br/><br/>
 
-<!-- Streak Stats -->
-<a href="https://github.com/getsurajmittal">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=getsurajmittal&theme=tokyonight&hide_border=true&background=0D1117&ring=4C8EDA&fire=4C8EDA&currStreakLabel=4C8EDA" alt="GitHub Streak" />
-</a>
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=getsurajmittal&layout=compact&langs_count=10&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&text_color=C9D1D9" alt="Top Languages" />
+<img width="55%" src="https://github-readme-stats.vercel.app/api/wakatime?username=getsurajmittal&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&text_color=C9D1D9" alt="Wakatime Stats" />
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=getsurajmittal&bg_color=0D1117&color=00F5D4&line=8B5CF6&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" alt="Activity Graph" />
 
 </div>
 
-<br/>
-
-## 🏆 GitHub Trophies
+### 🏆 Trophy Cabinet
 
 <div align="center">
+<img width="98%" src="https://github-profile-trophy.vercel.app/?username=getsurajmittal&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
+</div>
 
-<a href="https://github.com/getsurajmittal">
-  <img src="https://github-profile-trophy.vercel.app/?username=getsurajmittal&theme=onedark&no-frame=true&no-bg=true&margin_w=10&column=6" alt="Trophies" />
-</a>
+### 🐍 Watch My Contributions Get Eaten
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/getsurajmittal/getsurajmittal/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/getsurajmittal/getsurajmittal/output/github-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/getsurajmittal/getsurajmittal/output/github-snake.svg" />
+  </picture>
+</div>
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
+
+<!-- ==================== PROJECTS (AUTO-UPDATED) ==================== -->
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="30"> &nbsp;Featured Projects
+
+> 🤖 This section rebuilds itself automatically every time I push, create, or update a repository.
+
+<!-- PROJECTS:START -->
+<div align="center">
+
+<a href="https://github.com/getsurajmittal/my-portfolio"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=my-portfolio&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="my-portfolio" /></a>
+<a href="https://github.com/getsurajmittal/habit_tracker"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=habit_tracker&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="habit_tracker" /></a>
+
+<a href="https://github.com/getsurajmittal/reimbursements"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=reimbursements&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="reimbursements" /></a>
+<a href="https://github.com/getsurajmittal/getsurajmittal"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=getsurajmittal&repo=getsurajmittal&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00F5D4&icon_color=8B5CF6&text_color=C9D1D9" alt="getsurajmittal" /></a>
 
 </div>
 
-<br/>
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | Daily habit tracker with a monthly grid, streaks, heatmaps, day notes and instant cross-device sync | `JavaScript` `Firebase` `GitHub Pages` |
+| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | PWA ledger for expenses & pocket money with receipt uploads and row-level access control | `JavaScript` `Supabase` `Tailwind` |
+| **[my-portfolio](https://github.com/getsurajmittal/my-portfolio)** | Personal portfolio site built on a modern React + Vite toolchain | `React` `Vite` `Tailwind` |
+<!-- PROJECTS:END -->
 
-## 🐍 Contribution Snake
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
 
-<div align="center">
+<!-- ==================== ACTIVITY (AUTO-UPDATED) ==================== -->
+## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="30"> &nbsp;Live Activity Feed
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/getsurajmittal/getsurajmittal/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/getsurajmittal/getsurajmittal/output/github-contribution-grid-snake-light.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/getsurajmittal/getsurajmittal/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</picture>
+> ⚡ Auto-refreshed by GitHub Actions — pushes, PRs, stars and new repos land here on their own.
 
-</div>
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
-<br/>
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
 
-## 📫 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4C8EDA?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suraj-mittal-58a86a20b/)
-
-</div>
-
-<br/>
+<!-- ==================== CONNECT ==================== -->
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> &nbsp;Let's Connect
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2&height=120&section=footer" width="100%" alt="Footer" />
+<a href="https://www.linkedin.com/in/suraj-mittal-58a86a20b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:suraj.mittal@adtran.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/getsurajmittal"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-<sub>profile views 👇</sub>
-<br/>
-<img src="https://komarev.com/ghpvc/?username=getsurajmittal&color=4C8EDA&style=flat-square&label=views" alt="Views" />
+<br/><br/>
+
+<i>"Automate the boring, agent the repetitive, and keep the poetry human."</i>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5D4,50:203A43,100:0F2027&height=140&section=footer" alt="footer" />
 
 </div>
