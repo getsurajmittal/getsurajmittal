@@ -1,0 +1,21 @@
+# Keep everything LF in the repository.
+#
+# Without this, Git on Windows rewrites the working copy to CRLF (that's the
+# "LF will be replaced by CRLF" warning). The repo itself stays LF, so Actions
+# is fine either way — but pinning it removes the warning and rules out a
+# CRLF-in-a-shell-block failure on the Ubuntu runner, which fails with the
+# famously unhelpful "$'\r': command not found".
+
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+*.sh    text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.ico   binary
