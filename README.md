@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=36b818d6" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=57898836" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=3aedc26e" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=7c681cc4" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=225de6a1" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=2e7c87f6" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -162,16 +162,16 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 10h ago
-2. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11h ago
-3. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 9h ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 10h ago
-5. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 10h ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11h ago
-7. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11h ago
-8. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11h ago
-9. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11h ago
-10. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 11h ago
+1. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 16h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
+3. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 16h ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 16h ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
+6. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
+7. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
+10. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 17h ago
 
 <!--END_SECTION:activity-->
 
