@@ -108,7 +108,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
      into assets/ — no third-party image service in the path, so they can't
      break the way the old Vercel-hosted cards did. -->
 <img width="49%" src="./assets/stats.svg?v=542f3b69" alt="GitHub Stats" />
-<img width="49%" src="./assets/languages.svg?v=5f52d9fe" alt="Most Used Languages" />
+<img width="49%" src="./assets/languages.svg?v=cd582c8a" alt="Most Used Languages" />
 
 <br/><br/>
 
@@ -146,7 +146,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!-- PROJECTS:START -->
 | Project | What it does | Stack | ⭐ | Live |
 | :--- | :--- | :--- | :---: | :---: |
-| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `HTML` | 0 | — |
+| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `CSS` | 0 | — |
 | **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[my-portfolio](https://github.com/getsurajmittal/my-portfolio)** | _No description yet._ | `JavaScript` `HTML` `CSS` | 0 | — |
 
@@ -162,16 +162,16 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 4d ago
-2. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-3. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-5. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-7. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-8. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-9. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
-10. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 7d ago
+1. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 4h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 4h ago
+3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 5d ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
+6. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
+7. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
+10. ⬆️ Pushed 0 commits to [getsurajmittal/getsurajmittal](https://github.com/getsurajmittal/getsurajmittal) · 8d ago
 
 <!--END_SECTION:activity-->
 
