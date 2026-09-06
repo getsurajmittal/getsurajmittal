@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=b41875c8" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=66e887af" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=1a7c7dc4" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=508bc9ed" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=85e385f5" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=38f38699" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
