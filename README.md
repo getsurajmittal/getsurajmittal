@@ -116,7 +116,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=363650a6" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=d73d49dc" alt="Contribution Activity" />
 
 </div>
 
@@ -162,7 +162,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 18h ago
+1. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 1d ago
 2. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 9d ago
 3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 9d ago
 4. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 9d ago
