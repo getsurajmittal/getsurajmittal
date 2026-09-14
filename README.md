@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=4593d6c0" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=251e3e1b" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=c64a34d9" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=10b631a3" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=4381cf4a" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=579a5ded" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -146,11 +146,12 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!-- PROJECTS:START -->
 | Project | What it does | Stack | ⭐ | Live |
 | :--- | :--- | :--- | :---: | :---: |
+| **[house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model)** | _No description yet._ |  | 0 | — |
 | **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `CSS` | 0 | — |
 | **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[my-portfolio](https://github.com/getsurajmittal/my-portfolio)** | _No description yet._ | `JavaScript` `HTML` `CSS` | 0 | — |
 
-<sub>Most active right now: <a href="https://github.com/getsurajmittal/reimbursements">reimbursements</a></sub>
+<sub>Most active right now: <a href="https://github.com/getsurajmittal/house_price_prediction_model">house_price_prediction_model</a></sub>
 <!-- PROJECTS:END -->
 
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
