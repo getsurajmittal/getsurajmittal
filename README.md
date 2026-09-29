@@ -168,8 +168,6 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 2. ✨ Created a new branch in [getsurajmittal/house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model) · 6d ago
 3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 21d ago
 4. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 1mo ago
-5. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 1mo ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 1mo ago
 
 <!--END_SECTION:activity-->
 
