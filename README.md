@@ -116,7 +116,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=ac956340" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=9e77d46c" alt="Contribution Activity" />
 
 </div>
 
@@ -164,9 +164,9 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ✨ Created a new branch in [getsurajmittal/employee_turnover](https://github.com/getsurajmittal/employee_turnover) · 5d ago
-2. ✨ Created a new branch in [getsurajmittal/house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model) · 5d ago
-3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 20d ago
+1. ✨ Created a new branch in [getsurajmittal/employee_turnover](https://github.com/getsurajmittal/employee_turnover) · 6d ago
+2. ✨ Created a new branch in [getsurajmittal/house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model) · 6d ago
+3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 21d ago
 4. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 29d ago
 5. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 29d ago
 6. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 29d ago
