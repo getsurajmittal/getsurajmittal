@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=7d6a743d" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=cf96d8ea" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=1ad2a042" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=2adb459b" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=4c68c1ca" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=e1929f9d" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -164,9 +164,9 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ✨ Created a new branch in [getsurajmittal/employee_turnover](https://github.com/getsurajmittal/employee_turnover) · 10d ago
-2. ✨ Created a new branch in [getsurajmittal/house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model) · 10d ago
-3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 25d ago
+1. ✨ Created a new branch in [getsurajmittal/employee_turnover](https://github.com/getsurajmittal/employee_turnover) · 11d ago
+2. ✨ Created a new branch in [getsurajmittal/house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model) · 11d ago
+3. ⬆️ Pushed 0 commits to [getsurajmittal/reimbursements](https://github.com/getsurajmittal/reimbursements) · 26d ago
 
 <!--END_SECTION:activity-->
 
