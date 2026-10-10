@@ -108,7 +108,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
      into assets/ — no third-party image service in the path, so they can't
      break the way the old Vercel-hosted cards did. -->
 <img width="49%" src="./assets/stats.svg?v=0edb0b27" alt="GitHub Stats" />
-<img width="49%" src="./assets/languages.svg?v=5d7e9631" alt="Most Used Languages" />
+<img width="49%" src="./assets/languages.svg?v=39b00ffa" alt="Most Used Languages" />
 
 <br/><br/>
 
@@ -146,13 +146,13 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!-- PROJECTS:START -->
 | Project | What it does | Stack | ⭐ | Live |
 | :--- | :--- | :--- | :---: | :---: |
+| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[employee_turnover](https://github.com/getsurajmittal/employee_turnover)** | _No description yet._ | `Jupyter Notebook` | 0 | — |
 | **[house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model)** | _No description yet._ | `Jupyter Notebook` | 0 | — |
 | **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `CSS` | 0 | — |
-| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[my-portfolio](https://github.com/getsurajmittal/my-portfolio)** | _No description yet._ | `JavaScript` `HTML` `CSS` | 0 | — |
 
-<sub>Most active right now: <a href="https://github.com/getsurajmittal/employee_turnover">employee_turnover</a></sub>
+<sub>Most active right now: <a href="https://github.com/getsurajmittal/habit_tracker">habit_tracker</a></sub>
 <!-- PROJECTS:END -->
 
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
