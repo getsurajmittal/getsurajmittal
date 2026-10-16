@@ -116,7 +116,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=5375f03f" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=c259cb2d" alt="Contribution Activity" />
 
 </div>
 
