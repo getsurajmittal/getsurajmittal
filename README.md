@@ -116,7 +116,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=9ec0290a" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=835d8943" alt="Contribution Activity" />
 
 </div>
 
@@ -166,7 +166,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!--START_SECTION:activity-->
 
 1. ✨ Created a new branch in [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 5d ago
-2. ⬆️ Pushed 0 commits to [getsurajmittal/habit_tracker](https://github.com/getsurajmittal/habit_tracker) · 26d ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/habit_tracker](https://github.com/getsurajmittal/habit_tracker) · 27d ago
 
 <!--END_SECTION:activity-->
 
