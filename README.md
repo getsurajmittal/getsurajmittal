@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=771d9d53" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=b5e3c5a6" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=28e05309" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=413aa94e" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=ddcb5919" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=9f041bcf" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -166,12 +166,15 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!--START_SECTION:activity-->
 
 1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 9h ago
-2. ✨ Created a new branch in [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 11h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 10h ago
 3. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 10h ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 11h ago
-5. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 10h ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 10h ago
-7. ⬆️ Pushed 0 commits to [getsurajmittal/habit_tracker](https://github.com/getsurajmittal/habit_tracker) · 28d ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
+5. ✨ Created a new branch in [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 17h ago
+6. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 16h ago
+7. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 16h ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 16h ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 16h ago
+10. ⬆️ Pushed 0 commits to [getsurajmittal/habit_tracker](https://github.com/getsurajmittal/habit_tracker) · 28d ago
 
 <!--END_SECTION:activity-->
 
