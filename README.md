@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=afadf985" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=536a5ac1" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=5569bf48" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=8a9c8567" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=5d720786" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=2431c6bb" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -146,14 +146,14 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!-- PROJECTS:START -->
 | Project | What it does | Stack | ⭐ | Live |
 | :--- | :--- | :--- | :---: | :---: |
+| **[password_manager](https://github.com/getsurajmittal/password_manager)** | _No description yet._ |  | 0 | — |
 | **[portfolio](https://github.com/getsurajmittal/portfolio)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[python_for_ai](https://github.com/getsurajmittal/python_for_ai)** | _No description yet._ | `Jupyter Notebook` | 0 | — |
 | **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[employee_turnover](https://github.com/getsurajmittal/employee_turnover)** | _No description yet._ | `Jupyter Notebook` | 0 | — |
 | **[house_price_prediction_model](https://github.com/getsurajmittal/house_price_prediction_model)** | _No description yet._ | `Jupyter Notebook` | 0 | — |
-| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `CSS` | 0 | — |
 
-<sub>Most active right now: <a href="https://github.com/getsurajmittal/portfolio">portfolio</a></sub>
+<sub>Most active right now: <a href="https://github.com/getsurajmittal/password_manager">password_manager</a></sub>
 <!-- PROJECTS:END -->
 
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="divider" />
@@ -165,15 +165,15 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 8h ago
-2. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
-3. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
-5. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
-7. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
-8. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
-9. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
+1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 20h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 20h ago
+3. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 21h ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 2d ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
+6. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 21h ago
+7. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 2d ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 2d ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
 10. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
 
 <!--END_SECTION:activity-->
