@@ -112,18 +112,18 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=af17af75" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=c942f66e" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=0fae7e96" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=d45b4481" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=28697cf5" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=ad846b66" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -165,7 +165,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 6h ago
+1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 11h ago
 2. ⬆️ Pushed 0 commits to [getsurajmittal/password_manager](https://github.com/getsurajmittal/password_manager) · 3d ago
 3. ✨ Created a new branch in [getsurajmittal/password_manager](https://github.com/getsurajmittal/password_manager) · 3d ago
 4. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 5d ago
