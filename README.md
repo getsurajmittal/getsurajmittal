@@ -108,22 +108,22 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
      into assets/ — no third-party image service in the path, so they can't
      break the way the old Vercel-hosted cards did. -->
 <img width="49%" src="./assets/stats.svg?v=3e6aa2b3" alt="GitHub Stats" />
-<img width="49%" src="./assets/languages.svg?v=cd767135" alt="Most Used Languages" />
+<img width="49%" src="./assets/languages.svg?v=0f55ed7b" alt="Most Used Languages" />
 
 <br/><br/>
 
-<img width="49%" src="./assets/streak.svg?v=dd2efe13" alt="Contribution Streak" />
+<img width="49%" src="./assets/streak.svg?v=2d40dc0b" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=dbfd0ad8" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=4b84d000" alt="Contribution Activity" />
 
 </div>
 
 ### 🏆 Milestones
 
 <div align="center">
-<img width="98%" src="./assets/trophies.svg?v=adfa4462" alt="Milestones" />
+<img width="98%" src="./assets/trophies.svg?v=2c161b28" alt="Milestones" />
 </div>
 
 ### 🐍 Watch My Contributions Get Eaten
@@ -147,11 +147,11 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 | Project | What it does | Stack | ⭐ | Live |
 | :--- | :--- | :--- | :---: | :---: |
 | **[resume_parser](https://github.com/getsurajmittal/resume_parser)** | parses resume and matches provided skills and then tells the candidate match percentage | `Python` | 0 | — |
+| **[reimbursements](https://github.com/getsurajmittal/reimbursements)** | _No description yet._ | `JavaScript` `PLpgSQL` `CSS` | 0 | — |
+| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[learn_ai](https://github.com/getsurajmittal/learn_ai)** | _No description yet._ | `Python` | 0 | — |
 | **[portfolio](https://github.com/getsurajmittal/portfolio)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 | **[password_manager](https://github.com/getsurajmittal/password_manager)** | _No description yet._ | `Python` | 0 | — |
-| **[python_for_ai](https://github.com/getsurajmittal/python_for_ai)** | _No description yet._ | `Jupyter Notebook` | 0 | — |
-| **[habit_tracker](https://github.com/getsurajmittal/habit_tracker)** | _No description yet._ | `JavaScript` `CSS` `HTML` | 0 | — |
 
 <sub>Most active right now: <a href="https://github.com/getsurajmittal/resume_parser">resume_parser</a></sub>
 <!-- PROJECTS:END -->
@@ -166,7 +166,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!--START_SECTION:activity-->
 
 1. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 1d ago
-2. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 19h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 1d ago
 3. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 1d ago
 4. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 5d ago
 5. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 8d ago
