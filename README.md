@@ -116,7 +116,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=5be63ab0" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=142c9cae" alt="Contribution Activity" />
 
 </div>
 
@@ -165,16 +165,16 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
-2. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 2d ago
-3. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 1d ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
-5. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 6d ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 9d ago
+1. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 21h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
+3. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 2d ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 1d ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
+6. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 6d ago
 7. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 9d ago
-8. ⬆️ Pushed 0 commits to [getsurajmittal/password_manager](https://github.com/getsurajmittal/password_manager) · 12d ago
-9. ✨ Created a new branch in [getsurajmittal/password_manager](https://github.com/getsurajmittal/password_manager) · 12d ago
-10. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 14d ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 9d ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/password_manager](https://github.com/getsurajmittal/password_manager) · 12d ago
+10. ✨ Created a new branch in [getsurajmittal/password_manager](https://github.com/getsurajmittal/password_manager) · 12d ago
 
 <!--END_SECTION:activity-->
 
