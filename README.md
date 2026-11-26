@@ -116,7 +116,7 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <br/><br/>
 
-<img width="98%" src="./assets/activity.svg?v=1e9ca7ab" alt="Contribution Activity" />
+<img width="98%" src="./assets/activity.svg?v=adabc597" alt="Contribution Activity" />
 
 </div>
 
@@ -165,15 +165,15 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 
 <!--START_SECTION:activity-->
 
-1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 15h ago
-2. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
+1. ✨ Created a new branch in [getsurajmittal/portfolio-api](https://github.com/getsurajmittal/portfolio-api) · 23h ago
+2. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 1d ago
 3. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
-5. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 4d ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 3d ago
-7. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
-8. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 8d ago
-9. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 11d ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 2d ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
+6. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 4d ago
+7. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 3d ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
+9. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 8d ago
 10. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 11d ago
 
 <!--END_SECTION:activity-->
