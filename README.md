@@ -166,15 +166,15 @@ open_to:     [Collaboration, DevOps automation, Platform engineering]
 <!--START_SECTION:activity-->
 
 1. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 2d ago
-2. ✨ Created a new branch in [getsurajmittal/portfolio-api](https://github.com/getsurajmittal/portfolio-api) · 1d ago
+2. ✨ Created a new branch in [getsurajmittal/portfolio-api](https://github.com/getsurajmittal/portfolio-api) · 2d ago
 3. ⬆️ Pushed 0 commits to [getsurajmittal/portfolio](https://github.com/getsurajmittal/portfolio) · 2d ago
-4. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 3d ago
-5. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 3d ago
-6. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 5d ago
-7. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 5d ago
-8. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
-9. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 5d ago
-10. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 9d ago
+4. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
+5. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 4d ago
+6. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 6d ago
+7. ✨ Created a new branch in [getsurajmittal/resume_parser](https://github.com/getsurajmittal/resume_parser) · 6d ago
+8. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 5d ago
+9. ⬆️ Pushed 0 commits to [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 6d ago
+10. ✨ Created a new branch in [getsurajmittal/learn_ai](https://github.com/getsurajmittal/learn_ai) · 10d ago
 
 <!--END_SECTION:activity-->
 
